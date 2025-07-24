@@ -61,7 +61,7 @@
 <body>  
 <canvas id="canvas"></canvas>  
 <div class="overlay">  
-  <div class="center-message">I love you💗</div>  
+  <div class="center-message">sofia💗</div>  
 </div>  
 <img id="cursor" class="heart-cursor" src="data:image/svg+xml;base64,...(не меняется)...">  
 <audio id="audio-control" loop>  
@@ -111,7 +111,7 @@
     });  
   }  
   
-  const text = "I love you💗";  
+  const text = "sofia💗";  
   const baseFontSize = isTouchDevice ? 24 : 42;  
   const columns = Math.floor(canvas.width / (baseFontSize * 2));  
   const drops = new Array(columns).fill(1);  
@@ -183,7 +183,7 @@
       ctx.fillStyle = p.color;  
       ctx.shadowColor = p.color;  
       ctx.shadowBlur = 15;  
-      ctx.fillText("I love you💗", p.x, p.y);  
+      ctx.fillText("sofia💗", p.x, p.y);  
       ctx.shadowBlur = 0;  
       p.x += p.vx;  
       p.y += p.vy;  
